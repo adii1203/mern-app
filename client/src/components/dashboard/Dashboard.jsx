@@ -1,11 +1,12 @@
 import SideNav from "./SideNav";
-// testing new branch
+
 const Dashboard = () => {
   return (
     <>
-      <div className="">
-        <div>
-          <SideNav />
+      <div className="flex relative">
+        <SideNav />
+        <div className="">
+          <div></div>
         </div>
       </div>
     </>
