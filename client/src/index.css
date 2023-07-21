@@ -5,5 +5,24 @@
 
 body {
   height: 100vh;
-  background-color: #191919;
+  background-color: #000000;
 }
+/* .div {
+  height: 300px;
+  width: 300px;
+  background-size: 50% 50%;
+
+  background-position: 0px 0px;
+  background-image: radial-gradient(
+    142% 91% at 111% 84%,
+    #ff7000ff 0%,
+    #ff0000ff 100%
+  );
+  border-radius: 50%;
+
+  filter: blur(50px);
+} */
+/* 
+.div::after {
+  background: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+} */

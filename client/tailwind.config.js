@@ -19,6 +19,11 @@ export default {
       boxShadow: {
         nav: "rgba(255, 255, 255, 0.05) -1px 0px",
       },
+      backgroundImage: {
+        gradient: "radial-gradient(rgba(1,65,255,.4),rgba(1,65,255,0))",
+        linear:
+          " linear-gradient(to bottom right,rgba(1,65,255,0),rgba(1,65,255,0),rgba(1,65,255,.3))",
+      },
     },
   },
   plugins: [],
