@@ -3,9 +3,10 @@ import SideNav from "./SideNav";
 const Dashboard = () => {
   return (
     <>
-      <div className="">
-        <div>
-          <SideNav />
+      <div className="flex relative">
+        <SideNav />
+        <div className="">
+          <div></div>
         </div>
       </div>
     </>
